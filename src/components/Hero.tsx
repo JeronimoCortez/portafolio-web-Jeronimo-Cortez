@@ -20,7 +20,7 @@ const Hero = () => {
             className="flex px-2 py-1 bg-[#fff] text-[#000] gap-2 rounded-[.1rem] hover:cursor-pointer font-semibold"
             onClick={() =>
               (window.location.href =
-                "mailto:ejemplo@correo.com?subject=Consulta&body=Hola, quisiera más información sobre...")
+                "mailto:jeronimofcortez3@gmail.com?subject=Consulta&body=Hola, quisiera más información sobre...")
             }
           >
             <Mail /> Contactar
