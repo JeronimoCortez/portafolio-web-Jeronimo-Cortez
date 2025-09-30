@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+.title {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.subtitle {
+  color: rgba(217, 217, 217, 0.4);
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.description {
+  color: rgba(217, 217, 217, 0.4);
+  font-size: 1rem;
+}
+
+.item-nav {
+  color: #bdbdbd;
+  font-size: 1rem;
+  font-weight: 500; /* mismo peso en todos los estados */
+  padding: 0.4rem;
+  border-radius: 0.1rem;
+}
+
+.item-nav:hover {
+  background: #64748b;
+  color: #bdbdbd;
+  font-weight: 500;
+}
+
+.item-nav.--selected,
+.item-nav.--selected:hover {
+  background-color: rgba(217, 217, 217, 0.08) !important;
+  color: #bdbdbd !important;
+  font-weight: 500;
+}
