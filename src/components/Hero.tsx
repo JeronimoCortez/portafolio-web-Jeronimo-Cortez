@@ -60,13 +60,13 @@ const Hero = () => {
         <div>
           <p className="subtitle font-thin! text-[#38bdf8]!">Actualmente</p>
           <p className="description text-[#fff]!">
-            Desarrollador fullstack, actualmente participo en el bootcamp de
-            ITBA donde desarrollamos un ecommerce con el stack MERN. Además,
-            curso la academia FORIT, enfocada en técnicas de testing como TDD y
-            arquitectura clean code. Me desempeño como tutor docente en la
-            Tecnicatura Universitaria en Programación en la UTN (modalidad a
-            distancia), y este trabajo lo presentaré como práctica profesional
-            para recibirme oficialmente como Técnico en Programación.
+            Soy desarrollador fullstack con experiencia en el desarrollo de
+            aplicaciones web utilizando el stack MERN. Me interesa la aplicación
+            de buenas prácticas de programación, como el desarrollo guiado por
+            pruebas (TDD) y la arquitectura clean code. También me desempeño
+            como tutor docente en la Tecnicatura Universitaria en Programación
+            en la UTN (modalidad a distancia), donde acompaño a estudiantes en
+            su formación técnica.
           </p>
         </div>
         <div className="mt-2">
