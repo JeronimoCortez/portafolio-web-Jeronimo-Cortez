@@ -3,7 +3,10 @@ import { technologies } from "../utils/technologies";
 
 const AboutMe = () => {
   return (
-    <div className="p-4 w-[80vw] mx-auto flex flex-col md:grid md:grid-cols-2 gap-4">
+    <div
+      id="about-me"
+      className="p-4 w-[80vw] mx-auto flex flex-col md:grid md:grid-cols-2 gap-4"
+    >
       <div className="flex flex-col gap-4">
         <p className="subtitle">- SOBRE MÍ</p>
         <h3 className="title">Construyendo el futuro digital</h3>

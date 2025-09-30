@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <div className="h-[56px] bg-transparent w-full bg-[#000] border-b-[.5px] border-[#d9d9d9]/30 flex items-center sm:justify-around">
+    <div className=" h-[56px] bg-transparent w-full bg-[#000] border-b-[.5px] border-[#d9d9d9]/30 flex items-center sm:justify-around">
       <p className="text-[#bdbdbd] font-bold font-mono m-4 sm:m-0">
         {"<dev />"}
       </p>

@@ -3,7 +3,7 @@ import { contacts } from "../utils/contacts";
 
 const Contact = () => {
   return (
-    <div className="mx-auto max-w-[80vw] mt-4 flex flex-col gap-4">
+    <div id="contact" className="mx-auto max-w-[80vw] mt-4 flex flex-col gap-4">
       <p className="subtitle text-center">- Contacto</p>
       <h4 className="title text-center">Construyamos algo increíble juntos</h4>
       <p className="text-center description md:max-w-[40vw] mx-auto">

@@ -3,7 +3,10 @@ import { proyects } from "../utils/proyects";
 
 const Projects = () => {
   return (
-    <div className="max-w-[80vw] mx-auto flex flex-col gap-3 mt-5">
+    <div
+      id="proyects"
+      className="max-w-[80vw] mx-auto flex flex-col gap-3 mt-5"
+    >
       <p className="description">- Proyectos</p>
       <h4 className="title">Proyectos destacados</h4>
       <div className="flex flex-wrap justify-center gap-2">

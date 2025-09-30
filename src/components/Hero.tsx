@@ -2,7 +2,10 @@ import { ExternalLink, Github, Linkedin, Mail } from "lucide-react";
 
 const Hero = () => {
   return (
-    <div className="mt-4 p-4 w-[80vw] mx-auto md:flex md:items-center md:gap-4">
+    <div
+      id="#home"
+      className="mt-4 p-4 w-[80vw] mx-auto md:flex md:items-center md:gap-4"
+    >
       <div className="flex flex-col gap-2">
         <h2 className="title">Jeronimo Cortez</h2>
         <h3 className="subtitle">Desarrollador Full Stack</h3>

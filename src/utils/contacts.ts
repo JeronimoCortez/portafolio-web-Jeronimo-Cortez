@@ -11,5 +11,5 @@ export const contacts: IContact[] = [{
 }, {
     platform: "Mail",
     cta: "Para consultas profesionales, EMAIL",
-    url: "https://www.linkedin.com/in/jeronimo-cortez-bab3a8264"
+    url: "mailto:ejemplo@correo.com?subject=Consulta&body=Hola, quisiera más información sobre..."
 }]

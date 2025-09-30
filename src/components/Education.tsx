@@ -2,7 +2,7 @@ import { education } from "../utils/education";
 
 const Education = () => {
   return (
-    <div className=" w-[80vw] mx-auto flex flex-col gap-2">
+    <div id="education" className=" w-[80vw] mx-auto flex flex-col gap-2">
       <p className="subtitle">- Educacion</p>
       <h4 className="title">Trayectoria Academica</h4>
       <div className="flex flex-col gap-4">
